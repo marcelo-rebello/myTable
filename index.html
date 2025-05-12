@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="/favicon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Table</title>
+  <body>
+    <script type="module" src="/src/main.ts"></script>
+
+    <h1>My Table Test</h1>
+    <p>Test the my-table component using example data</p>
+    <my-table data='[
+    {
+      "dimension": {
+        "device": "Desktop",
+        "browser": "Chrome"
+      },
+      "metrics": [
+        {
+          "title": "Visits",
+          "value": 12345,
+          "trend": "+15%"
+        },
+        {
+          "title": "Bounce Rate",
+          "value": 0.08,
+          "trend": "+15%"
+        }
+      ]
+    },
+    {
+      "dimension": {
+        "device": "Mobile",
+        "browser": "Safari"
+      },
+      "metrics": [
+        {
+          "title": "Visits",
+          "value": 6789,
+          "trend": "-5%"
+        },
+        {
+          "title": "Bounce Rate",
+          "value": 0.12,
+          "trend": "-2%"
+        }
+      ]
+    }
+  ]'></my-table>
+  
+    <h1>My Table - test with empty data and styling</h1>
+    <my-table data="[]" style="width: 70%; margin: 2em; padding: 1em; border: 1px solid blue"></my-table>
+
+  </body>
+</html>

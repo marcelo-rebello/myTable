@@ -7,6 +7,9 @@ You can check an example of how to embed the component on a HTML file in 'localh
 
 App root folder `localhost:[PORT]` 
 
+## Design Docs
+
+Folder `docs` contains the wireframe and the TableRequirements and design.
 
 ## Project Setup
 
